@@ -1,0 +1,144 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.top-container {
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-block: 0;
+    background-color: #BBBBBB;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#accButtons {
+    display: flex;
+    flex-direction: row;
+    gap:8px
+}
+
+#logIn {
+    background-color: #4444FF;
+    color: white;
+}
+
+#signUp {
+    background-color: white;
+    color: #4444FF;
+}
+
+button {
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+h1,h2,h3,h4,p,a {
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-col {
+    flex-direction: column;
+}
+
+.profile-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:5%;
+    align-items: center;
+}
+
+.pp-container {
+    width: 15%;
+    display: flex;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.name-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.subheaderContainer {
+    display: flex;
+    flex-direction: column;
+    gap:0
+}
+
+.bottomContainer {
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-block: 0;
+    background-color: #BBBBBB;
+    display: flex;
+    flex-direction: column;
+}
+
+.followContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+}
+
+.followBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+.tabContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0;
+}
+
+.tab {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+.postsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+}
