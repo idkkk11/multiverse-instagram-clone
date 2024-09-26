@@ -137,8 +137,11 @@ h1,h2,h3,h4,p,a {
 }
 
 .postsContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 4px;
+}
+
+.post {
+    width: 100%;
 }
